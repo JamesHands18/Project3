@@ -1,5 +1,5 @@
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from api_collector import get_static_info, get_all_info
 
 from sqlalchemy import create_engine
@@ -23,9 +23,9 @@ def all():
     asteroids = engine.execute(execute_string).fetchall()
     session.close()
 
-    asteroid_dict = {}
+    asteroid_list = []
     for row in asteroids:
-        asteroid_dict[row[0]] = ({
+        asteroid_list.append({
             'name': row[1],
             'id': row[2],
             'est_dia_max': row[3],
@@ -36,7 +36,7 @@ def all():
             'estimated_diameter': row[8]
         })
     
-    return(jsonify(asteroid_dict))
+    return(jsonify(asteroid_list))
 
 @app.route('/api/base')
 def base():
@@ -45,9 +45,9 @@ def base():
     asteroids = engine.execute(execute_string).fetchall()
     session.close()
 
-    asteroid_dict = {}
+    asteroid_list = []
     for row in asteroids:
-        asteroid_dict[row[0]] = ({
+        asteroid_list.append({
             'name': row[1],
             'id': row[2],
             'est_dia_max': row[3],
@@ -58,7 +58,7 @@ def base():
             'estimated_diameter': row[8]
         })
     
-    return(jsonify(asteroid_dict))
+    return(jsonify(asteroid_list))
 
 if __name__ == "__main__":
     app.run(debug=True)
