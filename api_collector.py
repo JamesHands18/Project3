@@ -2,7 +2,7 @@ import requests
 import json
 from config import api_key
 from pprint import pprint
-from datetime import date
+from datetime import date as dt
 import pandas as pd
 
 
@@ -11,7 +11,7 @@ def get_static_info():
     url = f'https://api.nasa.gov/neo/rest/v1/neo/browse?api_key={api_key}'
     response = requests.get(url).json()
 
-    today = date.today()
+    today = dt.today()
     asteroid_list = []
 
     for asteroid in response['near_earth_objects']:
