@@ -17,7 +17,7 @@ Some of the challenges you faced and features you hope to implement in the futur
 ## Usage (include screenshots if you can)
 
 ## Credits
-James Hand - 
+James Hands - 
 Simon Butler - 
 Fazeleh Arjmandilari - 
 Mariama Doumbouya Diallo - 
