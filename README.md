@@ -50,4 +50,13 @@ Then I made the index.html home page where you could direct to charts, but also 
 
 ## Simon Butler  
 ## Fazeleh Arjmandilari  
+
+A drop-down menu was created using the base api which allows users to select the asteroid name. This then displayed a table showing some key facts about the asteroid based on the last sighting and also 2 line graphs showing the distance from earth and the speed of approach over time for the selected asteroid. The code for this can be found in the static/js folder in the logic.js file.
+
+![torodistance](https://user-images.githubusercontent.com/114575703/220774386-5be2504d-1aa2-4041-a97c-b641c73e25c7.jpg)
+
+
+![torospeed](https://user-images.githubusercontent.com/114575703/220774487-6fbd4313-1a93-4a0a-8111-d87a72370510.jpg)
+
+
 ## Mariama Doumbouya Diallo  
