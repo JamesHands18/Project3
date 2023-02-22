@@ -32,7 +32,7 @@ The most significant challenges that we faced were the initial organisation of t
 
 ## James Hands  
 
-The first thing I did was test the api, to see what kind of data we could get from the api. Then as a team we decided on the graphs we would be making. So then I made jupyter notebooks to make dure I collected the right data, while making sure it's in the right data types.
+The first thing I did was test the api, to see what kind of data we could get from the api. Then as a team we decided on the graphs we would be making. So then I made jupyter notebooks to make sure I collected the right data, while making sure it's in the right data types.
 
 ![Jupyternotebook](static/images/jpnb.png "jpnb")
 
