@@ -1,6 +1,6 @@
 # <Asteroids>
 
-![Asteroidstitle](Asteroid-NeoWs.jpg "titleimage")
+![Asteroidstitle](static/images/Asteroid-NeoWs.jpg "titleimage")
 
 ## Project NeoWs : NASA's Near Earth Object Web Service
 
@@ -31,6 +31,15 @@ The most significant challenges that we faced were the initial organisation of t
 
 
 ## James Hands  
+
+The first thing I did was test the api, to see what kind of data we could get from the api. Then as a team we decided on the graphs we would be making. So then I made jupyter notebooks to make dure I collected the right data, while making sure it's in the right data types. 
+![Jupyternotebook](static/images/jpnb.png "jpnb")
+Then I made a python file which contained the same jupyter notebook code, but in function form. Then I made the app.py where sql achlemy could be used to write the data from the dataframes to a database (after the first time ran, it's not needed to use this part again, so it can be commented out).
+![Databases](static/images/df-to-db.png "database")
+Then a flask server was created. So then the data from the databases was queried and put onto a local api on the flask server (/api/base and /api/all). Then I created the directories for each page that would house each one of the visualisations and called their html from templates.
+![Flask](static/images/flask-templates.png "flask")
+Then I made the index.html home page where you could direct to charts, but also I added a small animation which made the title at the top appear using the anime js library.
+![Animation](static/images/animation.png "animation")
 ## Simon Butler  
 ## Fazeleh Arjmandilari  
 ## Mariama Doumbouya Diallo  
