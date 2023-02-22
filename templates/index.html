@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To The Dashboard</title>
+    <!-- CSS For Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/cosmo/bootstrap.min.css" integrity="sha256-iMtue7kH6spfqTbfU9XGcwtBF8bgiOnVTErTuh7LJr8=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+        .letter {
+            display: inline-block;
+            opacity: 0;
+            height: 50px;
+            width: 30px;
+            color: rgb(255, 255, 255);
+            }
+    </style>
+
+</head>
+
+<body>
+<!-- Header & Navbar -->
+<nav class="navbar-right navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="container-fluid pb-2">
+            <a class="navbar-brand d-flex justify-content-center p-2" href="/">
+                <p><span class="letter">A</span>
+                    <span class="letter">S</span>
+                    <span class="letter">T</span>
+                    <span class="letter">E</span>
+                    <span class="letter">R</span>
+                    <span class="letter">O</span>
+                    <span class="letter">I</span>
+                    <span class="letter">D</span>
+                    <span class="letter">S</span></p>
+                <div></div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav mx-auto">
+                        <a class="nav-link active" href="/"><i class="bi bi-house-door-fill"></i></a>
+                        <a class="nav-link" href="/bubble">Bubble Chart</a>
+                        <a class="nav-link" href="/bar">Bar Chart</a>
+                        <a class="nav-link" href="/line">Line Graphs</a>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-lg-4">
+  <div class="row text-center d-flex justify-content-center">
+      <div class="col"><h4>Welcome to the Dashboard</h4><p><h5>Select a chart</h5></p></div>
+  </div>
+  <div class="row text-center d-flex justify-content-center">
+    <div class="col-md-6 mt-4"><a href="/bubble"><img width="400px" src=""><h4 class="mt-4">Bubble Chart</h4></a><p>See how all the asteroids compare</p></div>
+    <div class="col-md-6 mt-4"><a href="/bar"><img width="400px" src=""><h4 class="mt-4">Bar Chart</h4></a><p>See the top and bottom asteroids in certain categories</p></div>
+    <div class="col-md-6 mt-4"><a href="/line"><img width="400px" src=""><h4 class="mt-4">Line Graphs</h4></a><p>See how the asteroids have changed over time</p></div>
+  </div>
+</div>
+<div class = "demo-wrapper">
+    <span class="letter">A</span>
+    <span class="letter">S</span>
+    <span class="letter">T</span>
+    <span class="letter">E</span>
+    <span class="letter">R</span>
+    <span class="letter">O</span>
+    <span class="letter">I</span>
+    <span class="letter">D</span>
+    <span class="letter">S</span>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+<script>
+    anime({
+        targets: '.letter',
+        opacity: 1,
+        translateY: 50, 
+        rotate: {
+            value: 360,
+            duration: 2000,
+            easing: 'easeInExpo'
+        }, 
+        scale: anime.stagger([0.7, 1], {from: 'center'}), 
+        delay: anime.stagger(100, {start: 1000}), 
+        translateX: [-10, 30],
+});
+</script>
+
+</body>
+
+</html>
