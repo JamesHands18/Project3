@@ -17,7 +17,7 @@ The project stands out because it successfully utilises data on objects on the g
 Our application takes the data using an API enquiry to the NASA source and then, using python code with FLASK, interface with an SQL Database. This in turn facilitates an internal API call to supply an HTML / Javascript solution to create user driven visualisations. D3 and Plotly were utlised for this purpose. 
 
 The data technologies used in the application were considered to be the best solutions to acheive the end goal of the project. 
-The most significant challenges that we faced were the initial organisation of the project team to co-ordinate and align our efforts. The next major challenge was to ensure the interfaces between the various data technologies allowed seamless communication and flow of data. The design of the visualisations to allow flexibility of the user to explore the data was the final element to complete the project goal.  
+The most significant challenges that we faced were the initial organisation of the project team to co-ordinate and align our efforts. The next major challenge was to ensure the interfaces between the various data technologies allowed seamless communication and flow of data. The design of the visualisations to allow flexibility for the user to explore the data was the final element to complete the project goal.  
 
 
 
