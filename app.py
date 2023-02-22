@@ -6,6 +6,8 @@ from api_collector import get_static_info, get_all_info
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 
+import os
+
 #for reading database data
 db_path = 'sqlite:///db/asteroids.sql'
 engine = create_engine(db_path)
@@ -69,7 +71,9 @@ def base():
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    imageList = os.listdir('static/images')
+    image_list = ['images/' + image for image in imageList]
+    return render_template('index.html', imagelist=image_list)
 
 @app.route('/bubble')
 def bubble():
