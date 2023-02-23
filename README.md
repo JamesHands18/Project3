@@ -47,6 +47,9 @@ The data available from the api was thoroughly reviwed to understand the content
 ![Dropdown](static/images/dropdown-options.jpg "dropdown")
   
 The solution was to use a bubble sort method with a sliced methodology with the option coded to reverse where necessary for top or bottom 5 records as dictated by the user selection in the drop down selections.
+![sortcoding](static/images/sortcoding.jpg "sortcoding")
+
+An example output is shown below: 
 
 ![Bar Chart Example](static/images/Bar-Chart-Example.jpg "bar-chart")
 
