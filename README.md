@@ -21,14 +21,6 @@ The most significant challenges that we faced were the initial organisation of t
 
 
 
-<!-- ## Table of Contents ONLY IF NEEDED
-
-## How to Install and Run the Project
-
-## Usage (include screenshots if you can)
-
-## Credits -->
-
 
 ## James Hands  
 
@@ -50,7 +42,7 @@ Then I made the index.html home page where you could direct to charts, but also 
 
 ## Simon Butler  
 
-The data available from the api was thoroughly reviwed to understand the content available and the structure. The project team defined the visualisations and user interactivty required. The bar chart specification involved the facility for the user to filter and sort the data to examine the top and bottom 5 asteroids with a choice of either diameter (in km) or distance from earth (in lunar units). The solution was to use a bubble sort method with a sliced methodology with the option coded to reverse where necessary for top or bottom 5 records as disctated by the user selection in the drop down selections. 
+The data available from the api was thoroughly reviwed to understand the content available and the structure. The project team defined the visualisations and user interactivty required. The bar chart specification involves the facility for the user to filter and sort the data to examine the top and bottom 5 asteroids with a choice of either diameter (in km) or distance from earth (in lunar units). The solution was to use a bubble sort method with a sliced methodology with the option coded to reverse where necessary for top or bottom 5 records as disctated by the user selection in the drop down selections. 
 
 ![Bar Chart Example](static/images/Bar-Chart-Example.jpg "bar-chart")
 
