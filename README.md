@@ -40,7 +40,7 @@ Then I made the index.html home page where you could direct to charts, but also 
 
 ![Animation](static/images/animation.png "animation")
 
-##Team
+## Team
 ![dataflow](static/images/Data_Flow.png "dataflow")
 ## Simon Butler  
 
