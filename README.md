@@ -52,6 +52,8 @@ Then I made the index.html home page where you could direct to charts, but also 
 
 The data available from the api was thoroughly reviwed to understand the content available and the strucutre. The project team defined the visualisations and user interactivty required. The bar chart specification involved the facility for the user to filter and sort the data to examine the top and bottom 5 asteroids with a choice of either diameter (in km) or distance from earth (in lunar units). The solution was to use a bubble sort method with the option coded to reverse where necessary. 
 
+![Bar Chart Example](static/images/Bar-Chart-Example.jpg "bar-chart")
+
 
 ## Fazeleh Arjmandilari  
 
