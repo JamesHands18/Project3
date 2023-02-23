@@ -49,6 +49,10 @@ Then I made the index.html home page where you could direct to charts, but also 
 ![Animation](static/images/animation.png "animation")
 
 ## Simon Butler  
+
+The data available from the api was thoroughly reviwed to understand the content available and the strucutre. The project team defined the visualisations and user interactivty required. The bar chart specification involved the facility for the user to filter and sort the data to examine the top and bottom 5 asteroids with a choice of either diameter (in km) or distance from earth (in lunar units). The solution was to use a bubble sort method with the option coded to reverse where necessary. 
+
+
 ## Fazeleh Arjmandilari  
 
 A drop-down menu was created using the base api which allows users to select the asteroid name. This then displayed a table showing some key facts about the asteroid based on the last sighting and also 2 line graphs showing the distance from earth and the speed of approach over time for the selected asteroid. The code for this can be found in the static/js folder in the logic.js file.
