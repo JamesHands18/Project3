@@ -34,12 +34,12 @@ def all():
         asteroid_list.append({
             'name': row[1],
             'id': row[2],
-            'est_dia_max': row[3],
-            'est_dia_min': row[4],
-            'speed': row[5],
-            'distance': row[6],
+            'est_dia_max': round(row[3],3),
+            'est_dia_min': round(row[4],3),
+            'speed': round(row[5],3),
+            'distance': round(row[6],3),
             'date': row[7],
-            'estimated_diameter': row[8]
+            'estimated_diameter': round(row[8],3)
         })
     
     return(jsonify(asteroid_list))
@@ -57,12 +57,12 @@ def base():
         asteroid_list.append({
             'name': row[1],
             'id': row[2],
-            'est_dia_max': row[3],
-            'est_dia_min': row[4],
-            'speed': row[5],
-            'distance': row[6],
+            'est_dia_max': round(row[3],3),
+            'est_dia_min': round(row[4],3),
+            'speed': round(row[5],3),
+            'distance': round(row[6],3),
             'date': row[7],
-            'estimated_diameter': row[8]
+            'estimated_diameter': round(row[8],3)
         })
     
     return(jsonify(asteroid_list))
