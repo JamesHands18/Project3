@@ -67,3 +67,6 @@ A drop-down menu was created using the base api which allows users to select the
 
 
 ## Mariama Doumbouya Diallo  
+For the bubble chart firstly, the Plotly library was imported because of the straightforward approach needed to make clear and comprehensive visualisations. 
+We then used the D3 library to import our data which was already in JSON form and called on it to display the desired data. 
+The resoning behind selecting a bubble chart was that the diameter of the marker would be a great representative of the diameter of our asteroids and would therefore make the comparison easier inbetween them.
