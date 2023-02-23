@@ -40,6 +40,7 @@ Then I made the index.html home page where you could direct to charts, but also 
 
 ![Animation](static/images/animation.png "animation")
 
+![dataflow](static/images/Data_Flow.png "dataflow")
 ## Simon Butler  
 
 The data available from the api was thoroughly reviwed to understand the content available and the structure. The project team defined the visualisations and user interactivty required. The bar chart specification involves the facility for the user to filter and sort the data to examine the top or bottom 5 asteroids with a choice of either diameter (in km) or distance from earth (in lunar units). 
